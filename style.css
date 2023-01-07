@@ -15,17 +15,18 @@ html,body{
     justify-content: right;
 }
 
+.banner-content{
+    width: 450px;
+    text-align: right;
+    margin-right: 150px;
+}
+
 .banner-title{
     font-size: 65px;
     font-weight: bold;
     margin-bottom: 20px;
 
     
-}
-.banner-content{
-    width: 450px;
-    text-align: right;
-    margin-right: 150px;
 }
 
 .banner-button{
@@ -37,11 +38,15 @@ html,body{
     background-color: white;
     margin-top: 20px;
 }
+
+/* main content styles */
 main{
     margin-left: 150px;
     margin-right: 150px;
 
 }
+
+/* section bio styles */
 .bio{
     display: flex;
     margin-top: 130px;
@@ -64,4 +69,11 @@ main{
     content: '✓ ';
     color: green;
 
+}
+.plans{
+    text-align: center;
+}
+.plan-items-container{
+    display: flex;
+    justify-content:space-between;
 }
