@@ -70,10 +70,90 @@ main{
     color: green;
 
 }
+
+/* section plans styles*/
 .plans{
     text-align: center;
 }
 .plan-items-container{
     display: flex;
     justify-content:space-between;
+}
+
+/* section advice styles*/
+.advice{
+    background-image: url("images/watch.png"), url("images/gradient3.png");
+    background-blend-mode: multiply;
+    height: 300px;
+    width: 100%;
+    color: white;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.advice-content{
+    color: white;
+    width: 250px;
+    margin-left: 100px;
+}
+
+.advice-button{
+    padding: 10px;
+    color: orange;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+}
+
+/* section footer styles */
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    padding: 150px 150px;
+}
+
+.footer-info{
+    width: 450px;
+}
+
+.footer-contact{
+    margin-top: 20px;
+}
+
+.footer-social-icons{
+    display: flex;
+    margin-top: 30px;
+}
+
+.footer-social-icons img{
+    margin-right: 10px;
+}
+
+.footer-subscribe{
+    width: 250px;
+}
+
+.footer-subscribe input{
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-subscribe-button{
+    padding: 10px;
+    color: orange;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
 }
